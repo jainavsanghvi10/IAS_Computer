@@ -1,0 +1,7 @@
+PROGRAM-1
+    int a=5;
+    int b=10;
+    if(a>b)
+        c=a-b;
+    else
+        c=b-a;

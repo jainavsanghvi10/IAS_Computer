@@ -1,0 +1,158 @@
+jainavsanghvi10@LAPTOP-0640RALD:/mnt/j/IIIT_Bangalore/Semester2/Computer_Architecture/Assignments/Assignment-1(IAS Machine Implementation)$ ./a.out
+Enter the program number(1 or 2) which you want to implement: 1
+PC=10
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 3
+MAR = 100
+IBR = 8293
+MBR = 12989767781
+AC = 0
+MQ = 0
+
+Decoding Instruction
+LOAD M(100)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 3
+MAR = 100
+IBR = 8293
+MBR = 5
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 1 --------------------------------
+PC=10
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 2
+MAR = 101
+IBR = 0
+MBR = 5
+AC = 5
+MQ = 0
+
+Decoding Instruction
+SUB M(101)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 2
+MAR = 101
+IBR = 0
+MBR = 10
+AC = -5
+MQ = 0
+--------------------------------End of Cycle 2 --------------------------------
+PC=11
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 5
+MAR = 13
+IBR = 0
+MBR = 20493
+AC = -5
+MQ = 0
+
+Decoding Instruction
+JUMP+ M(13,0:19)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 5
+MAR = 13
+IBR = 0
+MBR = 20493
+AC = -5
+MQ = 0
+--------------------------------End of Cycle 3 --------------------------------
+PC=12
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 3
+MAR = 101
+IBR = 8292
+MBR = 12990816356
+AC = -5
+MQ = 0
+
+Decoding Instruction
+LOAD M(101)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 3
+MAR = 101
+IBR = 8292
+MBR = 10
+AC = 10
+MQ = 0
+--------------------------------End of Cycle 4 --------------------------------
+PC=12
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 2
+MAR = 100
+IBR = 0
+MBR = 10
+AC = 10
+MQ = 0
+
+Decoding Instruction
+SUB M(100)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 2
+MAR = 100
+IBR = 0
+MBR = 5
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 5 --------------------------------
+PC=13
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 4
+MAR = 103
+IBR = 1044480
+MBR = 17288916992
+AC = 5
+MQ = 0
+
+Decoding Instruction
+STOR M(103)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 4
+MAR = 103
+IBR = 1044480
+MBR = 5
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 6 --------------------------------
+PC=13
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 255
+MAR = 0
+IBR = 0
+MBR = 5
+AC = 5
+MQ = 0
+
+Decoding Instruction
+HALT
+
+Executing Instruction
+HALTING PROGRAM!
+Decimal Values of Registers after Execute Stage:
+IR = 255
+MAR = 0
+IBR = 0
+MBR = 5
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 7 --------------------------------
+PROGRAM HALTED SUCCESSFULLY

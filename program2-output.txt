@@ -1,0 +1,114 @@
+jainavsanghvi10@LAPTOP-0640RALD:/mnt/j/IIIT_Bangalore/Semester2/Computer_Architecture/Assignments/Assignment-1(IAS Machine Implementation)$ ./a.out
+Enter the program number(1 or 2) which you want to implement: 2
+PC=20
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 3
+MAR = 120
+IBR = 8313
+MBR = 13010739321
+AC = 0
+MQ = 0
+
+Decoding Instruction
+LOAD M(120)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 3
+MAR = 120
+IBR = 8313
+MBR = 10
+AC = 10
+MQ = 0
+--------------------------------End of Cycle 1 --------------------------------
+PC=20
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 2
+MAR = 121
+IBR = 0
+MBR = 10
+AC = 10
+MQ = 0
+
+Decoding Instruction
+SUB M(121)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 2
+MAR = 121
+IBR = 0
+MBR = 5
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 2 --------------------------------
+PC=21
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 5
+MAR = 24
+IBR = 0
+MBR = 20504
+AC = 5
+MQ = 0
+
+Decoding Instruction
+JUMP+ M(24,0:19)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 5
+MAR = 24
+IBR = 0
+MBR = 20504
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 3 --------------------------------
+PC=24
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 4
+MAR = 122
+IBR = 1044480
+MBR = 17308839936
+AC = 5
+MQ = 0
+
+Decoding Instruction
+STOR M(122)
+
+Executing Instruction
+Decimal Values of Registers after Execute Stage:
+IR = 4
+MAR = 122
+IBR = 1044480
+MBR = 5
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 4 --------------------------------
+PC=24
+Fetching Instruction
+Decimal Values of Registers after Fetch Stage:
+IR = 255
+MAR = 0
+IBR = 0
+MBR = 5
+AC = 5
+MQ = 0
+
+Decoding Instruction
+HALT
+
+Executing Instruction
+HALTING PROGRAM!
+Decimal Values of Registers after Execute Stage:
+IR = 255
+MAR = 0
+IBR = 0
+MBR = 5
+AC = 5
+MQ = 0
+--------------------------------End of Cycle 5 --------------------------------
+PROGRAM HALTED SUCCESSFULLY
